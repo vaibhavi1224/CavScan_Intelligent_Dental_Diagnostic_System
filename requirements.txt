@@ -1,0 +1,7 @@
+crewai
+crewai_tools
+streamlit 
+pillow
+streamlit
+pytorch
+langchain_cohere
