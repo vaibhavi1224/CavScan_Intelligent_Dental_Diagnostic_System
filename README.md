@@ -29,8 +29,8 @@ Ensure you have the following installed:
 ### Setup
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/CavScan.git
-cd CavScan
+git clone https://github.com/vaibhavi1224/CavScan_Intelligent_Dental_Diagnostic_System.git
+cd CavScan_Intelligent_Dental_Diagnostic_System
 
 # Install dependencies
 pip install -r requirements.txt
@@ -39,14 +39,14 @@ pip install -r requirements.txt
 ## Usage
 Run the model and generate reports using:
 ```bash
-python main.py --image path/to/dental_image.jpg
+streamlit run app.py
 ```
 
 ## Project Structure
 ```
 CavScan: Intelligent Dental Diagnostic System/
 │── models/                # Pretrained VGG16 model & weights
-│── src/                   # Main source code
+│── Agent/                   # Main source code
 │   │── predictor.py        # Disease prediction logic
 │   │── report_generator.py # AI-powered report generation
 │── data/                  # Sample dental images
@@ -71,6 +71,6 @@ This project is licensed under the MIT License.
 Special thanks to the open-source AI and dental research communities for their contributions to medical AI development.
 
 ---
-For further inquiries, contact: [Your Email/Website]
+For further inquiries, contact: kapsevaibhavi1224@gmail.com
 
 
